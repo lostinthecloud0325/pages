@@ -1,0 +1,234 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 1.2rem;
+    line-height: 1.6em;
+    margin: 0;
+    }
+    h1 {
+    font-size: 2rem;
+    line-height: 1.3em;
+    }
+    
+    p{
+        margin-bottom: 1.6em;
+    }
+    .container {
+    width: 85%;
+    max-width: 850px;
+    margin: 0 auto;
+    
+    }
+    .header{
+    background:  #073c57;
+    color: rgb(141, 200, 235);
+
+    padding: 2.5rem 0;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    }
+    .header a {
+        background: #073c57;
+        text-decoration: none;
+        color: rgb(141, 200, 235);
+        }
+
+    
+    .logo-nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    }
+    .logo{ 
+        letter-spacing: 15px;
+     font-size: 1.3em ;
+
+    }
+    .navigation ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    }
+    .navigation ul li{
+     display: inline-block;   
+    }
+    .navigation ul li a{
+    display: block;
+    padding: 0.5rem 1rem;
+    transition: all 0.4s linear;
+    border-radius: 5px;
+    }
+    .navigation ul li a:hover{
+    background: #bbdff1;
+    }
+    #menu {
+        display: none;
+    
+    }
+    .header-content-1{
+        text-align: center;
+        justify-content: center;
+        margin-bottom:  30px;
+        margin-top: auto;
+        padding-top: 20%;
+        color: rgb(18, 54, 108);
+    }
+
+    .main{
+    padding-top: 12rem;
+
+    }
+    
+    .container-presentacion{
+        text-align: center;  
+        height: 55%;
+        margin-bottom: 30%;
+        margin-top: 50%;
+    }
+
+    .container{
+     text-align: center;
+     }
+    .container-1{
+     text-align: center;
+    background-color: rgb(207, 226, 247);
+    
+   
+    }
+    .cont-img-1{
+    margin-top: auto;
+    margin-bottom: 10%;
+    width: 25%;
+    
+    }
+    .cont-img-2{
+      
+        margin-top: auto;
+        margin-bottom: 20%;
+        width: 25%;
+        height: auto  
+    }
+
+    .oceano{
+        padding: 100px;
+        background-image: -moz-linear-gradient(rgb(193, 193, 226), white);
+        position: relative;
+    }
+    .oceano-content{
+        text-align: center;
+    
+    
+    }
+    .oceano-content h2{
+        font-size: 30px;
+        line-height: 70px;
+        color: rgb(0, 0, 0);
+        text-transform: uppercase;
+        padding: 0 250px;
+        margin-bottom: 20px;
+        justify-content: center;
+    
+    }
+    .txt-p {
+        font-size: 12px; 
+        color:rgb(89, 78, 78);
+        padding:0 250px;
+        margin-bottom: 70px;
+    
+    }
+    .btn-1{
+        display:inline-block;
+        padding: 11px;
+        background-color: rgb(143, 174, 240);
+        border-radius: 10dvh;
+        color: rgb(43, 23, 82);
+        text-decoration: none;
+        text-transform: uppercase;
+        margin-top: 15px;
+        
+        
+    }
+    .btn-1:hover{
+        background-color:  rgb(194, 216, 236);
+        transition: all 0.4s linear;
+    }
+    
+    .beluga-group {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 55px;
+        margin-top: 20px;
+        padding: 5%;
+    }
+    .beluga-1 img {
+        width: 250px;
+        height: 50%;
+        padding-right: 0%;
+        padding-left: 0%;
+        padding-top: 0%;
+        margin: auto;
+        display: block;
+        text-align: center;
+    }
+  
+    .beluga-1{
+        padding-left: 10%;
+        padding-left: 4%;
+        text-align: justify;
+    }
+   
+    .delfin-group {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 55px;
+        margin-top: 20px;
+        padding: 5%;
+    }
+    .delfin-1 img {
+        width: 250px;
+        height: 40%;
+        padding-right: 0%;
+        padding-left: 0%;
+        padding-top: 0%;
+        margin: auto;
+        display: block;
+        text-align: center;
+    }
+.delfin-1{
+    padding-left: 2%;
+    padding-right: 3%;
+    text-align: justify;
+}
+.foca-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 55px;
+    margin-top: 20px;
+    padding: 5%;
+}
+.foca-1 img {
+    width: 260px;
+    height: 30%;
+    padding-right: 0%;
+    padding-left: 0%;
+    padding-top: 0%;
+    margin: auto;
+    display: block;
+    text-align: center;
+    transition: all 0.4s linear;
+}
+.foca-1{
+padding-left: 2%;
+padding-right: 3%;
+text-align: justify;
+}
+    .footer{
+        width: 100%;
+        height: 30%;
+        background-color: #dccda8;
+    }
+    .footer-title{
+
+    }
