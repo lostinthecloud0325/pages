@@ -1,0 +1,172 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 1.2rem;
+    line-height: 1.6em;
+    margin: 0;
+    }
+    
+    h1 {
+    text-align: center;
+    margin-top: 150px;
+        font-size: 30px;
+        color: #2c46a2;
+    
+    }
+    
+    p{
+        text-align: justify;
+    margin-top: 100px;
+        font-size: 20px
+    }
+    .container {
+    width: 85%;
+    max-width: 850px;
+    margin: 0 auto;
+    
+    }
+    .header{
+    background:  #073c57;
+    color: rgb(141, 200, 235);
+
+    padding: 2.5rem 0;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    }
+    .header a {
+        background: #073c57;
+        text-decoration: none;
+        color: rgb(141, 200, 235);
+        }
+
+    
+    .logo-nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    }
+    .logo{ 
+        letter-spacing: 15px;
+     font-size: 1.3em ;
+
+    }
+    .navigation ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    }
+    .navigation ul li{
+     display: inline-block;   
+    }
+    .navigation ul li a{
+    display: block;
+    padding: 0.5rem 1rem;
+    transition: all 0.4s linear;
+    border-radius: 5px;
+    }
+    .navigation ul li a:hover{
+    background: #bbdff1;
+    }
+    #menu {
+        display: none;
+    
+    }
+    .header-content-1{
+        text-align: center;
+        justify-content: center;
+        margin-top: auto;
+        padding-top: 20%;
+    }
+
+    .header-des{
+        color: rgb(204, 99, 99);
+        text-align: center;
+        margin: 10%;
+        line-height: 30px;
+        text-align: justify;
+       
+    }
+    h2{
+        
+        text-align: center;
+        margin-top: auto;
+        font-size: 40px;
+        color: rgb(155, 97, 208);
+
+    }
+    
+   
+    .beluga-tex{
+        float: right;
+        font-size: 30px;
+        line-height: 30px;
+        color: rgb(204, 99, 99);
+        padding: 0 250px;
+       margin: 10px;
+        justify-content: center;
+    }
+    .bel-img{
+        width: 250px;
+        height: 50%;
+        padding-right: 0%;
+        padding-left: 0%;
+        padding-top: 0%;
+        margin: auto;
+        display: block;
+        float: center;
+        text-align: center;
+    }
+
+    .delfin-tex{
+        float: right;
+        font-size: 30px;
+        line-height: 30px;
+        color: rgb(204, 99, 99);
+        padding: 0 250px;
+       margin: 10px;
+        justify-content: center;
+    }
+
+    .del-img{
+        width: 250px;
+        height: 50%;
+        padding-right: 0%;
+        padding-left: 0%;
+        padding-top: 0%;
+        margin: auto;
+        display: block;
+        float: center;
+        align-items: center;
+    }
+    
+    .foca-tex{
+        float: right;
+        font-size: 30px;
+        line-height: 30px;
+        color: rgb(204, 99, 99);
+        padding: 0 250px;
+       margin: 10px;
+        justify-content: center;
+    }
+    .foca-img{
+        
+        width: 250px;
+        height: 50%;
+        padding-right: 0%;
+        padding-left: 0%;
+        padding-top: 0%;
+        margin: auto;
+        display: block;
+        text-align: center;
+      
+    }
+    .footer{
+        width: 100%;
+        height: 30%;
+        
+    }
+    .footer-title{
+    
+    }
